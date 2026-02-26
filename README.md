@@ -1,8 +1,8 @@
 # Shotify
 
-Play 60-second clips (or 30-second previews) from your Spotify playlists. Pick a playlist, optionally add an in-between sound between tracks. Built for **web hosting** (e.g. AWS, or a physical server); you use your own site URL as the Spotify redirect URI.
+Play 60-second clips from your Spotify playlists. Pick a playlist, optionally add an in-between sound between tracks. Built for **web hosting** (e.g. AWS, or a physical server); you use your own site URL as the Spotify redirect URI.
 
-**Special thanks — all credit goes to [Jack Hanington](https://jackhanington.com/).** This project was vibe coded with Jack.
+**Special thanks — all credit goes to [Jack Hanington](https://jackhanington.com/).** This project was vibe coded with Jack's original app and Power Hour in mind.
 
 ---
 
@@ -101,4 +101,4 @@ Optional sounds between each track are loaded from **`src/content/sounds/`**. Ad
 
 - **Frontend:** React 19, TypeScript, Vite 7  
 - **Auth:** Spotify PKCE (no client secret)  
-- **Playback:** Spotify Web Playback SDK (60s from 45s) or 30s preview URLs
+- **Playback:** Spotify Web Playback SDK (60s from 45s)
